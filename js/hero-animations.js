@@ -7,7 +7,7 @@ const HeroAnimations = {
     'children-toy-brand-1.jpg', 'children-toy-brand-2.jpg', 'children-toy-brand-3.jpg', 'children-toy-brand-4.jpg', 'children-toy-brand-5.jpg',
     'creative-studio-1.png', 'creative-studio-2.png', 'creative-studio-3.png', 'creative-studio-4.png', 'creative-studio-5.png',
     'editorial-magazine-1.jpg', 'editorial-magazine-2.jpg', 'editorial-magazine-3.jpg', 'editorial-magazine-4.jpg', 'editorial-magazine-5.jpg',
-    'elegant-fine-jewellery-house-1.jpg', 'elegant-fine-jewellery-house-2.jpg', 'elegant-fine-jewellery-house-3.jpg', 'elegant-fine-jewellery-house-4.jpg', 'elegant-fine-jewellery-house-5.jpg',
+    'fine-jewellery-house-1.jpg', 'fine-jewellery-house-2.jpg', 'fine-jewellery-house-3.jpg', 'fine-jewellery-house-4.jpg', 'elegant-fine-jewellery-house-5.jpg',
     'energy-drink-1.jpg', 'energy-drink-2.jpg', 'energy-drink-3.jpg', 'energy-drink-4.jpg', 'energy-drink-5.jpg',
     'fashion-label-1.png', 'fashion-label-2.png', 'fashion-label-3.png', 'fashion-label-4.png', 'fashion-label-5.png',
     'haute-couture-atelier-1.jpg', 'haute-couture-atelier-2.jpg', 'haute-couture-atelier-3.jpg', 'haute-couture-atelier-4.jpg', 'haute-couture-atelier-5.jpg',
@@ -133,7 +133,6 @@ const HeroAnimations = {
     orbitEl.id = 'hero-orbit';
     hero.appendChild(orbitEl);
 
-    // shuffle N images randomly from the full pool, one per slot
     const shuffled = [...this.images].sort(() => Math.random() - 0.5);
     const items = Array.from({ length: N }, (_, i) => {
       const el = document.createElement('img');
@@ -144,7 +143,6 @@ const HeroAnimations = {
       return { el, baseAngle: (i / N) * Math.PI * 2 };
     });
 
-    // global orbit offset — only changes on word snap
     this._orbitState = { val: 0, target: 0 };
 
     const tick = () => {
@@ -159,8 +157,8 @@ const HeroAnimations = {
         : Math.min(W * 0.50, H * 0.65);
       const PERSP   = R * 2.2;
       const SIN_TILT = W < 768
-        ? Math.sin(52 * Math.PI / 180)  // 52° on mobile
-        : Math.sin(32 * Math.PI / 180); // 22° on desktop
+        ? Math.sin(52 * Math.PI / 180)
+        : Math.sin(32 * Math.PI / 180);
 
       items.forEach(item => {
         const t    = item.baseAngle + this._orbitState.val;
@@ -194,7 +192,7 @@ const HeroAnimations = {
 
   orbitStep() {
     if (!this._orbitState) return;
-    const step = (Math.PI * 2) / 14; // one image slot
+    const step = (Math.PI * 2) / 14;
     this._orbitState.target += step;
     gsap.to(this._orbitState, {
       val: this._orbitState.target,
