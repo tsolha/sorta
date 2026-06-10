@@ -1,0 +1,99 @@
+.font-showcase {
+  border-bottom:   2px solid var(--bg);
+  padding-top:     120px;
+  display:         flex;
+  align-items:     flex-end;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.font-meta {
+  flex-shrink:    0;
+  display:        flex;
+  flex-direction: column;
+  gap:            4px;
+  padding-bottom: 16px;
+}
+
+.font-meta__name {
+  font-size:   14px;
+  font-weight: 600;
+  color:       var(--bg);
+  transition:  color var(--duration) var(--ease);
+}
+
+.font-specimen {
+  font-size:      clamp(80px, 9vw, 400px);
+  font-weight:    700;
+  line-height:    1;
+  color:          var(--bg);
+  letter-spacing: -0.1em;
+  white-space:    nowrap;
+  flex:           1;
+  text-align:     right;
+  transition:
+    font-family var(--duration) var(--ease),
+    color       var(--duration) var(--ease);
+}
+
+.font-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 48px;
+  padding-top: 32px;
+  width: 100%;
+}
+
+.font-description {
+  flex: 0 0 280px;
+  font-size: clamp(13px, 1.2vw, 16px);
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--bg);
+  transition: color var(--duration) var(--ease);
+}
+
+.font-glyphs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: right;
+}
+
+.font-glyphs__row {
+  font-size: clamp(14px, 1.6vw, 25px);
+  line-height: 1.5;
+  color: var(--bg);
+  word-break: break-all;
+  transition: color var(--duration) var(--ease);
+}
+
+@media (max-width: 768px) {
+  .font-details {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .font-glyphs {
+  text-align: left;
+  }
+  .font-description { flex: unset; }
+}
+
+.font-specimen__sm { display: none; }
+
+
+@media (max-width: 600px) {
+  .font-showcase {
+    flex-direction: column;
+    align-items:    flex-start;
+  }
+  .font-specimen {
+    text-align: left;
+    font-size:  clamp(80px, 14vw, 100px);
+  }
+  .font-specimen__lg { display: none; }
+  .font-specimen__sm { display: inline; }
+}

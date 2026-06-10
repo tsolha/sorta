@@ -1,0 +1,23 @@
+:root {
+  --bg:          #d8d5cf;
+  --bg-section:  #e8e5de;
+  --text:        #1a1a18;
+  --text-muted:  #5a5a55;
+  --accent:      #c0392b;
+  --accent2:     #2c2c28;
+
+  --font-body:    'Inter', sans-serif;
+  --font-display: 'DM Serif Display', serif;
+  --font-mono:    'Space Mono', monospace;
+  --theme-font:   'DM Serif Display', serif;
+  --theme-font-weight: 700;
+
+  --ease:     cubic-bezier(0.16, 1, 0.3, 1);
+  --duration: 0.6s;
+
+  --border: 2px solid var(--bg);
+
+  --notch-h:        44px;
+  --notch-w:        210px;
+  --notch-shoulder: 18px;
+}

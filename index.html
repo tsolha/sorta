@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>SORTA — Your Dream Client</title>
+
+  <!--! GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Betania+Patmos+In&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Climate+Crisis:YEAR@1979&family=Commissioner:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Elsie+Swash+Caps:wght@400;900&family=Englebert&family=Imperial+Script&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jim+Nightshade&family=Momo+Trust+Display&family=Racing+Sans+One&family=Schoolbell&family=Uncial+Antiqua&family=UnifrakturMaguntia&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--! STYLES -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/modals.css" />
+  <link rel="stylesheet" href="css/brief.css" />
+  <link rel="stylesheet" href="css/palette.css" />
+  <link rel="stylesheet" href="css/fonts-modal.css" />
+  <link rel="stylesheet" href="css/filters.css" />
+
+  <!--! P5 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+</head>
+<body>
+
+  <!--! HERO -->
+  <section id="hero" aria-label="Hero">
+
+    <div id="hero-corkboard"></div>
+    <div id="hero-ref-board"></div>
+
+
+    <!--! HERO LOGO -->
+    <div class="hero__logo">
+      <img
+        class="logo logo--md"
+        id="hero-logo"
+        src="./data/logos/default.svg"
+        alt="SORTA logo"
+      />
+      <span class="hero__logo-sub">your dream client</span>
+    </div>
+
+    <!--! HERO STATEMENT -->
+    <div class="hero__statement">
+      <p class="hero__statement__body">
+        Create the projects you always wished<br>
+        you could and SORTA will be your client
+      </p>
+      <p class="hero__statement__kicker">
+        Because SORTA<br>
+        is sorta<br>
+        <span class="hero__anything" id="hero-anything">anything!</span>
+      </p>
+    </div>
+
+    <!--! HERO CTA -->
+    <div class="hero__cta">
+      <button class="btn-build-brief" id="build-brief-btn" type="button">
+        Build a Brief
+      </button>
+    </div>
+
+  </section>
+
+  <!--! MODAL: BRIEF -->
+  <div class="tab-modal" id="modal-brief"
+       role="dialog" aria-modal="true" aria-hidden="true" aria-label="Your Brief">
+
+    <span class="tab-modal__notch" aria-hidden="true">Brief</span>
+    <button class="tab-modal__close" type="button" aria-label="Close brief">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <line x1="1.5" y1="1.5" x2="16.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="16.5" y1="1.5" x2="1.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <div class="tab-modal__scroll">
+
+      <span class="brief__watermark" aria-hidden="true">The Brief</span>
+
+      <div class="brief__content">
+        <p class="brief__text">
+          We would like to develop
+          <span class="brief__var" id="bv-project">a visual identity</span>
+          for our
+          <span class="brief__var" id="bv-business">creative studio</span>
+          that reflects
+          <span class="brief__var" id="bv-aesthetic">a bold, expressive aesthetic</span>.
+          This project should include
+          <span class="brief__var" id="bv-deliverables">brand guidelines, logo system, and typography</span>.
+          The final outcome should be cohesive, of high-quality
+          and match our guidelines.
+        </p>
+        <div class="brief__logo-wrap">
+          <img class="logo logo--sm" src="./data/logos/default.svg" alt="SORTA logo" />
+        </div>
+
+        <button class="btn-print-guidelines" id="print-guidelines-btn" type="button">
+          Print the Guidelines
+        </button>
+      </div>
+
+      <div class="minimal-footer">
+        <p>From designers to designers.</p>
+        <a href="mailto:hello@sorta.design">hello@sorta.design</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!--! MODAL: PALETTE -->
+  <div class="tab-modal" id="modal-palette"
+       role="dialog" aria-modal="true" aria-hidden="true" aria-label="Colour Palette">
+
+    <span class="tab-modal__notch" aria-hidden="true">Palette</span>
+    <button class="tab-modal__close" type="button" aria-label="Close palette">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <line x1="1.5" y1="1.5" x2="16.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="16.5" y1="1.5" x2="1.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <div class="tab-modal__scroll">
+      <div class="modal-section">
+        <p class="section-label">Color Palette</p>
+        <div class="palette" id="palette-grid" role="list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--! MODAL: FONTS -->
+  <div class="tab-modal" id="modal-fonts"
+       role="dialog" aria-modal="true" aria-hidden="true" aria-label="Fonts">
+
+    <span class="tab-modal__notch" aria-hidden="true">Fonts</span>
+    <button class="tab-modal__close" type="button" aria-label="Close fonts">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <line x1="1.5" y1="1.5" x2="16.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="16.5" y1="1.5" x2="1.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <div class="tab-modal__scroll">
+      <div class="modal-section">
+        <p class="section-label">Display Font</p>
+        <div class="font-showcase">
+          <div class="font-meta">
+            <p class="font-meta__name" id="font-name">Cormorant Garamond</p>
+          </div>
+          <div class="font-specimen" id="font-specimen"
+               style="font-family:'Cormorant Garamond',serif;font-weight:300;"
+               aria-label="Font specimen: AaBbCc">
+            <span class="font-specimen__lg">AaBbCc</span>
+            <span class="font-specimen__sm">AaBb</span>
+          </div>
+        </div>
+
+        <div class="font-details">
+          <p class="font-description" id="font-description"></p>
+          <div class="font-glyphs" id="font-glyphs">
+            <div class="font-glyphs__row">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+            <div class="font-glyphs__row">abcdefghijklmnopqrstuvwxyz</div>
+            <div class="font-glyphs__row">0123456789</div>
+            <div class="font-glyphs__row">!@#$%&amp;?.,;:'"()[]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--! MODAL: FILTERS -->
+  <div class="tab-modal tab-modal--filters" id="modal-filters"
+       role="dialog" aria-modal="true" aria-hidden="true" aria-label="Build your brief">
+
+    <span class="tab-modal__notch" aria-hidden="true">Filters</span>
+    <button class="tab-modal__close" type="button" aria-label="Close filters">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <line x1="1.5" y1="1.5" x2="16.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="16.5" y1="1.5" x2="1.5" y2="16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <div class="tab-modal__scroll tab-modal__scroll--centered">
+
+      <div class="filters__body">
+
+        <div class="filters__header">
+          <p>We will <em>become</em><br>this client</p>
+        </div>
+
+        <div class="filter-group">
+          <div class="pills" id="style-pills" role="group" aria-label="Aesthetic style"></div>
+        </div>
+
+        <div class="filters__header">
+          <p>What <em>would you like</em><br>to design?</p>
+        </div>
+
+        <div class="filter-group">
+          <div class="pills" id="type-pills" role="group" aria-label="Project type"></div>
+        </div>
+
+        <button class="btn-generate" id="generate-btn" type="button">
+          Generate Brief
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--! SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="./js/hero-animations.js"></script>
+  <script src="./js/state.js"></script>
+  <script src="./js/animations.js"></script>
+  <script src="./js/appearance.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

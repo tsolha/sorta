@@ -1,0 +1,174 @@
+#modal-palette .tab-modal__scroll {
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  justify-content: flex-start;
+  min-height:      100%;
+}
+
+#modal-palette .modal-section {
+  width: 100%;
+}
+
+.palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  margin: 48px auto 0;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.swatch {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3654 / 4996;
+  border-radius: 0;
+  overflow: visible;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.swatch:hover {
+  transform: translateY(-4px);
+}
+
+.swatch__circle {
+  position: absolute;
+  inset: 2px;
+  width: 98%;
+  height: 98%;
+  border-radius: 0;
+  margin: 0;
+  border: none;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.swatch::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="3654" height="4996" viewBox="0 0 3654 4996" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3654 4996H0V0H3654V4996ZM1917.15 530H149V3908H2351.57L2651.5 3541H3504V179H2204L1917.15 530Z" fill="white"/></svg>');
+  -webkit-mask-size: 100% 100%;
+  mask-image: url('data:image/svg+xml;utf8,<svg width="3654" height="4996" viewBox="0 0 3654 4996" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3654 4996H0V0H3654V4996ZM1917.15 530H149V3908H2351.57L2651.5 3541H3504V179H2204L1917.15 530Z" fill="white"/></svg>');
+  mask-size: 100% 100%;
+  z-index: 3;
+  pointer-events: none;
+  transition: background var(--duration) var(--ease);
+}
+
+/* layer 3: text on frame */
+.swatch__label {
+  position: absolute;
+  top: 3.5%;
+  left: 7%;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  opacity: 0.45;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
+  z-index: 4;
+}
+
+.swatch__name {
+  position: absolute;
+  top: 82%;
+  left: 5.5%;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: var(--theme-font-weight);
+  line-height: 1;
+  color: var(--text);
+  font-family: var(--theme-font);
+  z-index: 4;
+}
+
+.swatch__hex {
+  position: absolute;
+  bottom: 22%;
+  right: 7%;
+  font-size: 12px;
+  opacity: 0.75;
+  font-family: 'Space Mono', monospace;
+  color: var(--text);
+  z-index: 4;
+  text-align: right;
+  font-weight: 500;
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+.swatch.is-copied .swatch__hex {
+  color: var(--accent);
+  opacity: 1;
+}
+
+/* overlay: shown on hover / tap */
+.swatch__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 48px;
+  gap: 14px;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  clip-path: polygon(
+    52.44% 10.61%, 4.08% 10.61%, 4.08% 78.22%,
+    64.36% 78.22%, 72.56% 70.88%, 95.89% 70.88%,
+    95.89% 3.58%, 60.32% 3.58%
+  );
+  background: rgba(0, 0, 0, 0.38);
+  pointer-events: none;
+}
+
+.swatch:hover .swatch__overlay,
+.swatch.is-info .swatch__overlay { opacity: 1; }
+
+.swatch__overlay-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.swatch__overlay-row span:first-child {
+  font-family: var(--font-body);
+  font-size: clamp(10px, 1vw, 12px);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.55;
+}
+
+.swatch__overlay-row span:last-child {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(10px, 1vw, 12px);
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+
+@media (max-width: 768px) {
+  .palette { gap: 10px; }
+  #modal-palette .tab-modal__scroll { justify-content: flex-start; }
+
+  #modal-palette::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(var(--notch-h) + 60px);
+    background: var(--bg);
+    z-index: 20;
+    pointer-events: none;
+    transition: background var(--duration) var(--ease);
+  }
+}

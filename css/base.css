@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background:  var(--bg);
+  color:       var(--text);
+  font-family: var(--font-body);
+  overflow-x:  hidden;
+  overflow-y:  hidden;
+  transition:
+    background var(--duration) var(--ease),
+    color      var(--duration) var(--ease);
+}
+
+.logo {
+  display: block;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+  color: var(--text);
+  transition: color var(--duration) var(--ease);
+  height: auto;
+}
+
+.logo--md { width: 160px; }
+.logo--sm { width: 100px; }
+
+@media (max-width: 600px) {
+  .logo--md { width: 110px; }
+  .logo--sm { width: 80px; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}

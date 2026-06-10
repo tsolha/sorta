@@ -1,0 +1,129 @@
+#modal-brief .tab-modal__scroll {
+  position:        relative;
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  justify-content: center;
+  min-height:      100%;
+  padding:         120px 40px calc(var(--tab-h) + 60px);
+}
+
+.brief__watermark {
+  position:   absolute;
+  top:        150px;
+  left:       50%;
+  transform:  translateX(-50%);
+  z-index:    0;
+  font-family: 'Imperial Script', serif;
+  font-size:  clamp(140px, 22vw, 480px);
+  font-weight: 400;
+  white-space: nowrap;
+  color:      var(--bg);
+  pointer-events: none;
+  user-select: none;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  opacity: 0.95;
+  transition: color var(--duration) var(--ease);
+}
+
+.brief__content {
+  position:  relative;
+  z-index:   3;
+  text-align: center;
+  padding:   0 32px;
+  max-width: 620px;
+  width:     100%;
+}
+
+.brief__logo-wrap {
+  margin-top: 48px;
+  display:    flex;
+  justify-content: center;
+}
+
+.brief__text {
+  font-size:   20px;
+  font-weight: 500;
+  line-height: 1.25;
+  color:       var(--text);
+  transition:  color var(--duration) var(--ease);
+  animation:   fadeUp 0.7s var(--ease) both;
+}
+
+.brief__var {
+  font-family: var(--font-display);
+  font-style:  italic;
+  font-weight: 700;
+  font-size:   inherit;
+  color:       var(--accent);
+  display:     inline;
+  transition:
+    opacity   0.22s ease,
+    transform 0.22s ease,
+    color     var(--duration) var(--ease);
+}
+
+.brief__var.is-updating {
+  opacity:   0;
+  transform: translateY(6px);
+}
+
+@media (max-width: 768px) {
+  .btn-print-guidelines { display: none; }
+}
+
+.btn-print-guidelines {
+  margin-top: 44px;
+  padding: 12px 36px;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  border: 1px solid var(--text);
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color      0.2s ease,
+    opacity    var(--duration) var(--ease);
+  opacity: 0.6;
+}
+
+.btn-print-guidelines:hover {
+  background: var(--text);
+  color: var(--bg);
+  opacity: 1;
+}
+
+.minimal-footer {
+  margin-top: 70px;
+  text-align: center;
+  font-size:  12px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  color:      var(--text);
+  transition: color var(--duration) var(--ease);
+}
+
+.minimal-footer a {
+  color:           var(--text);
+  text-decoration: none;
+  border-bottom:   1px solid var(--text);
+  padding-bottom:  1px;
+  transition:
+    color         var(--duration) var(--ease),
+    border-color  0.2s;
+}
+
+.minimal-footer a:hover { border-color: var(--accent); }
+
+@media (max-width: 768px) {
+  .brief__watermark {top: 30%}
+  #modal-brief .tab-modal__scroll {
+    justify-content: flex-start;
+    padding: calc(var(--notch-h) + 100px) 24px calc(var(--notch-h) + 200px);
+  }
+}

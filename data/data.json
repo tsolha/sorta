@@ -1,0 +1,1408 @@
+{
+  "businesses": {
+    "default": [
+      "creative studio", 
+      "architecture studio", 
+      "fashion label", 
+      "tech startup", 
+      "sports brand", 
+      "haute couture atelier"
+
+    ],
+    "Funky": [
+      "streetwear brand", 
+      "vinyl record shop", 
+      "scandinavian furniture brand", 
+      "illustration studio", 
+      "wellness brand", 
+      "creative studio", 
+      "indie music band", 
+      "children toy brand",
+      "pet care brand", 
+      "theme park", 
+      "art gallery", 
+      "energy drink", 
+      "stationery company", 
+      "sports brand", 
+      "maximalist interiors studio", 
+      "bakery"      
+    ],
+    "Neo-Gothic": [
+      "editorial magazine", 
+      "art gallery", 
+      "luxury perfume brand",
+      "occult bookshop", 
+      "tattoo parlour", 
+      "indie music band", 
+      "fashion label", 
+      "heritage watchmaker" 
+    ],
+    "Bold": [
+      "sports brand", 
+      "streetwear brand", 
+      "scandinavian furniture brand", 
+      "political campaign", 
+      "sport car brand", 
+      "fashion label", 
+      "energy drink",
+      "art gallery", 
+      "theme park", 
+      "editorial magazine", 
+      "maximalist interiors studio", 
+      "creative studio" 
+    ],
+    "Elegant": [
+      "luxury hotel", 
+      "fine jewellery house", 
+      "art gallery", 
+      "haute couture atelier", 
+      "private members club", 
+      "premium wine estate", 
+      "sport car brand", 
+      "editorial magazine", 
+      "wellness brand", 
+      "stationery company", 
+      "heritage watchmaker" 
+    ],
+    "Minimalistic": [
+      "premium wine estate", 
+      "sports brand", 
+      "luxury hotel", 
+      "architecture studio", 
+      "wellness brand", 
+      "stationery company", 
+      "energy drink", 
+      "art gallery", 
+      "fashion label", 
+      "scandinavian furniture brand", 
+      "bakery", 
+      "sport car brand", 
+      "tech startup" 
+    ],
+    "Grunge": [
+      "indie music band", 
+      "tattoo parlour", 
+      "art gallery", 
+      "editorial magazine", 
+      "underground nightclub", 
+      "vintage clothing store", 
+      "vinyl record shop", 
+      "editorial magazine", 
+      "luxury perfume brand" 
+    ],
+    "Maximalistic": [
+      "indie music band", 
+      "children toy brand", 
+      "maximalist interiors studio", 
+      "theme park", 
+      "sports brand", 
+      "energy drink", 
+      "pet care brand" 
+    ],
+    "Cute": [
+      "creative studio", 
+      "scandinavian furniture brand", 
+      "children toy brand",
+      "bakery", 
+      "stationery company", 
+      "wellness brand", 
+      "pet care brand", 
+      "theme park", 
+      "energy drink", 
+      "fashion label" 
+    ]
+  },
+  "aesthetics": {
+    "default": [
+      "a balanced, adaptable, and designer-friendly visual direction",
+      "a clean neutral aesthetic with enough flexibility for interpretation",
+      "a calm yet expressive visual language suitable for a broad creative brief"
+    ],
+    "Funky": [
+      "vibrant, irreverent, and eccentrically playful energy",
+      "bold chromatic contrasts and retro-digital vibes",
+      "a psychedelic, free-spirited visual language"
+    ],
+    "Neo-Gothic": [
+      "a dark, editorial tension between tradition and transgression",
+      "dramatic contrast, sharp serifs, and gothic atmospheric depth",
+      "brooding elegance with architectural gravitas"
+    ],
+    "Bold": [
+      "strong typographic presence, high contrast, and unapologetic directness",
+      "raw visual confidence with oversized type and stark composition",
+      "an assertive, impact-first graphic language"
+    ],
+    "Elegant": [
+      "refined restraint, quiet luxury, and timeless sophistication",
+      "delicate precision, champagne tones, and classical proportions",
+      "an understated yet deeply considered aesthetic grace"
+    ],
+    "Minimalistic": [
+      "thoughtful reduction, generous whitespace, and functional clarity",
+      "a stripped-back visual language where every element earns its place",
+      "clean geometry, neutral tones, and purposeful simplicity"
+    ],
+    "Grunge": [
+      "raw texture, deliberate distress, and authentic imperfection",
+      "an anti-corporate aesthetic rooted in print culture and subversion",
+      "gritty visual noise, xerox aesthetics, and underground energy"
+    ],
+    "Maximalistic": [
+      "layered excess, chromatic abundance, and joyful visual complexity",
+      "a rich, sensory world where more is always more",
+      "explosive pattern mixing, baroque detail, and vibrant chaos"
+    ],
+    "Cute": [
+      "soft rounded forms, pastel warmth, and irresistible approachability",
+      "gentle whimsy, hand-drawn texture, and kawaii-inspired delight",
+      "playful illustration, sweet color harmonies, and tender detail"
+    ]
+  },
+  "deliverables": {
+    "default": [
+      "a comprehensive brand guidelines document",
+      "logo suite and identity system",
+      "typography hierarchy and specimen",
+      "color palette with usage rules",
+      "brand stationery and collateral"
+    ],
+    "Advertisement": [
+      "a full campaign concept",
+      "key visual art direction",
+      "headline and copy framework",
+      "digital and print ad formats",
+      "OOH and social executions"
+    ],
+    "Packaging": [
+      "primary packaging design",
+      "secondary packaging and inserts",
+      "label system and hierarchy",
+      "material and finish specification",
+      "unboxing experience design"
+    ],
+    "Print": [
+      "editorial layout system",
+      "typographic grid and rules",
+      "image direction and curation",
+      "print-ready artwork files",
+      "paper and production specification"
+    ],
+    "Booklet": [
+      "cover design and spine",
+      "chapter divider pages",
+      "body copy layout",
+      "infographic and diagram style",
+      "print specification sheet"
+    ],
+    "Data Visualization": [
+      "data dashboard design system",
+      "chart and graph library",
+      "color-coded data hierarchy",
+      "interactive prototype",
+      "accessibility compliance check"
+    ],
+    "Rebrand": [
+      "brand audit and teardown",
+      "new identity system",
+      "migration and rollout plan",
+      "updated brand guidelines",
+      "stakeholder presentation deck"
+    ],
+    "Social Media Kit": [
+      "profile and cover templates",
+      "story and reel format suite",
+      "post grid composition system",
+      "caption and tone-of-voice guide",
+      "content calendar template"
+    ],
+    "Web Design": [
+      "full site map and wireframes",
+      "desktop and mobile UI system",
+      "component and interaction library",
+      "typography and color tokens",
+      "developer handoff documentation"
+    ],
+    "Anything": [
+      "a creative direction deck",
+      "mood board and reference library",
+      "initial concept explorations",
+      "three distinct design directions",
+      "one fully resolved final execution"
+    ]
+  },
+  "projectNames": {
+    "Advertisement": "a campaign",
+    "Packaging": "a packaging system",
+    "Print": "print materials",
+    "Booklet": "a booklet",
+    "Data Visualization": "a data visualization",
+    "Rebrand": "a full rebrand",
+    "Social Media Kit": "a social media kit",
+    "Web Design": "a website",
+    "Anything": "a complete creative project",
+    "default": "a visual identity"
+  },
+  "styleLooks": {
+    "default": [
+      {
+        "name": "Neutral Studio",
+        "theme": {
+          "bg": "#F4FAFF",
+          "bgSection": "#FFFEF3",
+          "text": "#1a1a18",
+          "textMuted": "#5a5a55",
+          "accent": "#7CC6FE",
+          "accent2": "#5DFDCB"
+        },
+        "palette": [
+          {
+            "hex": "#FFFEF3",
+            "name": "Warm Paper"
+          },
+          {
+            "hex": "#1a1a18",
+            "name": "Ink Black"
+          },
+          {
+            "hex": "#7CC6FE",
+            "name": "Maya Blue"
+          },
+          {
+            "hex": "#5DFDCB",
+            "name": "Aquamarine"
+          },
+          {
+            "hex": "#F4FAFF",
+            "name": "Soft Concrete"
+          }
+        ]
+      }
+    ],
+    "Funky": [
+      {
+        "name": "Tangerine Radio",
+        "theme": {
+          "bg": "#f7c59f",
+          "bgSection": "#efefd0",
+          "text": "#161616",
+          "textMuted": "#635140",
+          "accent": "#ff6b35",
+          "accent2": "#004e89"
+        },
+        "palette": [
+          {
+            "hex": "#EFEFD0",
+            "name": "Cream"
+          },
+          {
+            "hex": "#1A936F",
+            "name": "Jade"
+          },
+          {
+            "hex": "#FF6B35",
+            "name": "Tangerine"
+          },
+          {
+            "hex": "#004E89",
+            "name": "Cobalt"
+          },
+          {
+            "hex": "#F7C59F",
+            "name": "Peach"
+          }
+        ]
+      },
+      {
+        "name": "Thrift",
+        "theme": {
+          "bg": "#0B6E4F",
+          "bgSection": "#2B4162",
+          "text": "#E0E0E2",
+          "textMuted": "#cccccc",
+          "accent": "#FA9F42",
+          "accent2": "#E0E0E2"
+        },
+        "palette": [
+          {
+            "hex": "#2B4162",
+            "name": "Yale Blue"
+          },
+          {
+            "hex": "#E0E0E2",
+            "name": "Alabaster Grey"
+          },
+          {
+            "hex": "#FA9F42",
+            "name": "Sandy Brown"
+          },
+          {
+            "hex": "#721817",
+            "name": "Dark Wine"
+          },
+          {
+            "hex": "#0B6E4F",
+            "name": "Dark Emerald"
+          }
+        ]
+      },
+      {
+        "name": "Bread&Butter",
+        "theme": {
+          "bg": "#EEE3AB",
+          "bgSection": "#D9CFC1",
+          "text": "#A77E58",
+          "textMuted": "#c9b5ff",
+          "accent": "#80A1C1",
+          "accent2": "#A77E58"
+        },
+        "palette": [
+          {
+            "hex": "#D9CFC1",
+            "name": "Bone"
+          },
+          {
+            "hex": "#A77E58",
+            "name": "Faded Copper"
+          },
+          {
+            "hex": "#80A1C1",
+            "name": "Steel Blue"
+          },
+          {
+            "hex": "#BA3F1D",
+            "name": "Rusty Spice"
+          },
+          {
+            "hex": "#EEE3AB",
+            "name": "Vanilla Custard"
+          }
+        ]
+      }
+    ],
+    "Neo-Gothic": [
+      {
+        "name": "Old Gold Crypt",
+        "theme": {
+          "bg": "#0d0d0d",
+          "bgSection": "#161614",
+          "text": "#e8e5de",
+          "textMuted": "#7a7a75",
+          "accent": "#c9a96e",
+          "accent2": "#16213e"
+        },
+        "palette": [
+          {
+            "hex": "#1A1A2E",
+            "name": "Midnight"
+          },
+          {
+            "hex": "#E8E5DE",
+            "name": "Parchment"
+          },
+          {
+            "hex": "#C9A96E",
+            "name": "Old Gold"
+          },
+          {
+            "hex": "#16213E",
+            "name": "Abyss"
+          },
+          {
+            "hex": "#0D0D0D",
+            "name": "Void"
+          }
+        ]
+      },
+      {
+        "name": "Blood Chapel",
+        "theme": {
+          "bg": "#2d1b1b",
+          "bgSection": "#222127",
+          "text": "#f0ede8",
+          "textMuted": "#c0a080",
+          "accent": "#8B8C6E",
+          "accent2": "#c0a080"
+        },
+        "palette": [
+          {
+            "hex": "#222127",
+            "name": "Shadow Grey"
+          },
+          {
+            "hex": "#F0EDE8",
+            "name": "Bone"
+          },
+          {
+            "hex": "#8B8C6E",
+            "name": "Dry Sage"
+          },
+          {
+            "hex": "#C0A080",
+            "name": "Brass"
+          },
+          {
+            "hex": "#2D1B1B",
+            "name": "Blood Dark"
+          }
+        ]
+      },
+      {
+        "name": "Blue Cathedral",
+        "theme": {
+          "bg": "#080b12",
+          "bgSection": "#111827",
+          "text": "#d8dee9",
+          "textMuted": "#7f8a99",
+          "accent": "#7a8cff",
+          "accent2": "#2f365f"
+        },
+        "palette": [
+          {
+            "hex": "#111827",
+            "name": "Cold Stone"
+          },
+          {
+            "hex": "#D8DEE9",
+            "name": "Moon Bone"
+          },
+          {
+            "hex": "#7A8CFF",
+            "name": "Glass Violet"
+          },
+          {
+            "hex": "#2F365F",
+            "name": "Cathedral Blue"
+          },
+          {
+            "hex": "#080B12",
+            "name": "Black Nave"
+          }
+        ]
+      }
+    ],
+    "Bold": [
+      {
+        "name": "Signal System",
+        "theme": {
+          "bg": "#f0e830",
+          "bgSection": "#ffffff",
+          "text": "#0a0a0a",
+          "textMuted": "#3a3a30",
+          "accent": "#ff2400",
+          "accent2": "#0057b7"
+        },
+        "palette": [
+          {
+            "hex": "#FFFFFF",
+            "name": "White"
+          },
+          {
+            "hex": "#0A0A0A",
+            "name": "Carbon"
+          },
+          {
+            "hex": "#FF2400",
+            "name": "Scarlet"
+          },
+          {
+            "hex": "#0057B7",
+            "name": "Primary Blue"
+          },
+          {
+            "hex": "#F0E830",
+            "name": "Signal Yellow"
+          }
+        ]
+      },
+      {
+        "name": "Impact Sport",
+        "theme": {
+          "bg": "#ff4500",
+          "bgSection": "#ffd700",
+          "text": "#1a1a1a",
+          "textMuted": "#4b2400",
+          "accent": "#003087",
+          "accent2": "#ffffff"
+        },
+        "palette": [
+          {
+            "hex": "#FFD700",
+            "name": "Gold"
+          },
+          {
+            "hex": "#1A1A1A",
+            "name": "Black"
+          },
+          {
+            "hex": "#003087",
+            "name": "Navy"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "White"
+          },
+          {
+            "hex": "#FF4500",
+            "name": "Red Orange"
+          }
+        ]
+      },
+      {
+        "name": "Poster Clash",
+        "theme": {
+          "bg": "#050505",
+          "bgSection": "#f72525",
+          "text": "#f7f7f7",
+          "textMuted": "#ffb3b3",
+          "accent": "#fffb00",
+          "accent2": "#00a3ff"
+        },
+        "palette": [
+          {
+            "hex": "#F72525",
+            "name": "Poster Red"
+          },
+          {
+            "hex": "#F7F7F7",
+            "name": "Paper White"
+          },
+          {
+            "hex": "#FFFB00",
+            "name": "Hard Yellow"
+          },
+          {
+            "hex": "#00A3FF",
+            "name": "Bright Blue"
+          },
+          {
+            "hex": "#050505",
+            "name": "Heavy Black"
+          }
+        ]
+      }
+    ],
+    "Elegant": [
+      {
+        "name": "Ivory Walnut",
+        "theme": {
+          "bg": "#f5f0e8",
+          "bgSection": "#ede8de",
+          "text": "#1a1510",
+          "textMuted": "#7a6f62",
+          "accent": "#8b6f47",
+          "accent2": "#c8b89a"
+        },
+        "palette": [
+          {
+            "hex": "#3D2B1F",
+            "name": "Espresso"
+          },
+          {
+            "hex": "#1A1510",
+            "name": "Truffle"
+          },
+          {
+            "hex": "#8B6F47",
+            "name": "Walnut"
+          },
+          {
+            "hex": "#C8B89A",
+            "name": "Sand"
+          },
+          {
+            "hex": "#F5F0E8",
+            "name": "Ivory"
+          }
+        ]
+      },
+      {
+        "name": "Pearl Linen",
+        "theme": {
+          "bg": "#faf7f2",
+          "bgSection": "#d4c5a9",
+          "text": "#1e1612",
+          "textMuted": "#9e8a6c",
+          "accent": "#5c4a3a",
+          "accent2": "#9e8a6c"
+        },
+        "palette": [
+          {
+            "hex": "#D4C5A9",
+            "name": "Linen"
+          },
+          {
+            "hex": "#1E1612",
+            "name": "Dark Roast"
+          },
+          {
+            "hex": "#5C4A3A",
+            "name": "Umber"
+          },
+          {
+            "hex": "#9E8A6C",
+            "name": "Stone"
+          },
+          {
+            "hex": "#FAF7F2",
+            "name": "Pearl"
+          }
+        ]
+      },
+      {
+        "name": "Champagne Ink",
+        "theme": {
+          "bg": "#eee4d2",
+          "bgSection": "#fffaf0",
+          "text": "#211b16",
+          "textMuted": "#8f7d68",
+          "accent": "#b08d57",
+          "accent2": "#35251d"
+        },
+        "palette": [
+          {
+            "hex": "#FFFAF0",
+            "name": "Silk"
+          },
+          {
+            "hex": "#211B16",
+            "name": "Ink Brown"
+          },
+          {
+            "hex": "#B08D57",
+            "name": "Antique Gold"
+          },
+          {
+            "hex": "#8F7D68",
+            "name": "Taupe"
+          },
+          {
+            "hex": "#EEE4D2",
+            "name": "Champagne"
+          }
+        ]
+      }
+    ],
+    "Minimalistic": [
+      {
+        "name": "Soft System",
+        "theme": {
+          "bg": "#f8f8f6",
+          "bgSection": "#f0f0ee",
+          "text": "#111110",
+          "textMuted": "#888885",
+          "accent": "#111110",
+          "accent2": "#a0a09c"
+        },
+        "palette": [
+          {
+            "hex": "#E0E0DC",
+            "name": "Light Grey"
+          },
+          {
+            "hex": "#111110",
+            "name": "Near Black"
+          },
+          {
+            "hex": "#404040",
+            "name": "Dark Grey"
+          },
+          {
+            "hex": "#A0A09C",
+            "name": "Grey"
+          },
+          {
+            "hex": "#F8F8F6",
+            "name": "Off White"
+          }
+        ]
+      },
+      {
+        "name": "White Slate",
+        "theme": {
+          "bg": "#ffffff",
+          "bgSection": "#f0f0ee",
+          "text": "#0a0a0a",
+          "textMuted": "#666664",
+          "accent": "#0a0a0a",
+          "accent2": "#ccccca"
+        },
+        "palette": [
+          {
+            "hex": "#F0F0EE",
+            "name": "Cloud"
+          },
+          {
+            "hex": "#0A0A0A",
+            "name": "Ink"
+          },
+          {
+            "hex": "#666664",
+            "name": "Slate"
+          },
+          {
+            "hex": "#CCCCCA",
+            "name": "Silver"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Pure White"
+          }
+        ]
+      },
+      {
+        "name": "Warm Grid",
+        "theme": {
+          "bg": "#ebe7df",
+          "bgSection": "#f7f4ef",
+          "text": "#20201d",
+          "textMuted": "#7b7a72",
+          "accent": "#6c756b",
+          "accent2": "#b8b2a7"
+        },
+        "palette": [
+          {
+            "hex": "#F7F4EF",
+            "name": "Warm White"
+          },
+          {
+            "hex": "#20201D",
+            "name": "Soft Ink"
+          },
+          {
+            "hex": "#6C756B",
+            "name": "Muted Sage"
+          },
+          {
+            "hex": "#B8B2A7",
+            "name": "Stone Line"
+          },
+          {
+            "hex": "#EBE7DF",
+            "name": "Gallery Wall"
+          }
+        ]
+      }
+    ],
+    "Grunge": [
+      {
+        "name": "Tar Newsprint",
+        "theme": {
+          "bg": "#1e1b16",
+          "bgSection": "#252018",
+          "text": "#d4c9b2",
+          "textMuted": "#7a7060",
+          "accent": "#c84b2f",
+          "accent2": "#3d3228"
+        },
+        "palette": [
+          {
+            "hex": "#7A6650",
+            "name": "Rust Brown"
+          },
+          {
+            "hex": "#D4C9B2",
+            "name": "Newsprint"
+          },
+          {
+            "hex": "#C84B2F",
+            "name": "Brick"
+          },
+          {
+            "hex": "#3D3228",
+            "name": "Mud"
+          },
+          {
+            "hex": "#1E1B16",
+            "name": "Tar"
+          }
+        ]
+      },
+      {
+        "name": "Oxide Zine",
+        "theme": {
+          "bg": "#181410",
+          "bgSection": "#2e2018",
+          "text": "#c0b090",
+          "textMuted": "#866f56",
+          "accent": "#b03020",
+          "accent2": "#5a4030"
+        },
+        "palette": [
+          {
+            "hex": "#2E2018",
+            "name": "Dark Earth"
+          },
+          {
+            "hex": "#C0B090",
+            "name": "Old Paper"
+          },
+          {
+            "hex": "#B03020",
+            "name": "Oxide Red"
+          },
+          {
+            "hex": "#5A4030",
+            "name": "Leather"
+          },
+          {
+            "hex": "#181410",
+            "name": "Black Mud"
+          }
+        ]
+      },
+      {
+        "name": "Dirty Xerox",
+        "theme": {
+          "bg": "#d7d0bd",
+          "bgSection": "#C2B590",
+          "text": "#2A2926",
+          "textMuted": "#675f52",
+          "accent": "#6F1D1B",
+          "accent2": "#2A2926"
+        },
+        "palette": [
+          {
+            "hex": "#12100E",
+            "name": "Copy Black"
+          },
+          {
+            "hex": "#2A2926",
+            "name": "Charcoal"
+          },
+          {
+            "hex": "#6F1D1B",
+            "name": "Dried Red"
+          },
+          {
+            "hex": "#675F52",
+            "name": "Dirty Grey"
+          },
+          {
+            "hex": "#D7D0BD",
+            "name": "Cheap Paper"
+          }
+        ]
+      }
+    ],
+    "Maximalistic": [
+      {
+        "name": "Candy Overload",
+        "theme": {
+          "bg": "#0a0520",
+          "bgSection": "#120a30",
+          "text": "#f0e8ff",
+          "textMuted": "#9080c0",
+          "accent": "#ff6b9d",
+          "accent2": "#60d4f4"
+        },
+        "palette": [
+          {
+            "hex": "#FFE566",
+            "name": "Laser Yellow"
+          },
+          {
+            "hex": "#C77DFF",
+            "name": "Violet"
+          },
+          {
+            "hex": "#FF6B9D",
+            "name": "Bubblegum"
+          },
+          {
+            "hex": "#60D4F4",
+            "name": "Cyan"
+          },
+          {
+            "hex": "#06D6A0",
+            "name": "Mint"
+          }
+        ]
+      },
+      {
+        "name": "Neon Carnival",
+        "theme": {
+          "bg": "#D7263D",
+          "bgSection": "#1B998B",
+          "text": "#ffffff",
+          "textMuted": "#ffd7ef",
+          "accent": "#C5D86D",
+          "accent2": "#F46036"
+        },
+        "palette": [
+          {
+            "hex": "#1B998B",
+            "name": "Verdigris"
+          },
+          {
+            "hex": "#2E256E",
+            "name": "Midnight Blue"
+          },
+          {
+            "hex": "#C5D86D",
+            "name": "Lime Cream"
+          },
+          {
+            "hex": "#F46036",
+            "name": "Tiger Flame"
+          },
+          {
+            "hex": "#D7263D",
+            "name": "Classic Crimson"
+          }
+        ]
+      },
+      {
+        "name": "Baroque Pixel",
+        "theme": {
+          "bg": "#2d0a31",
+          "bgSection": "#ffd166",
+          "text": "#fff6e0",
+          "textMuted": "#ffc2e2",
+          "accent": "#ef476f",
+          "accent2": "#118ab2"
+        },
+        "palette": [
+          {
+            "hex": "#FFD166",
+            "name": "Gold Candy"
+          },
+          {
+            "hex": "#06D6A0",
+            "name": "Fresh Mint"
+          },
+          {
+            "hex": "#EF476F",
+            "name": "Cerise"
+          },
+          {
+            "hex": "#118AB2",
+            "name": "Deep Cyan"
+          },
+          {
+            "hex": "#2D0A31",
+            "name": "Plum Velvet"
+          }
+        ]
+      }
+    ],
+    "Cute": [
+      {
+        "name": "Blush Toybox",
+        "theme": {
+          "bg": "#fde8f0",
+          "bgSection": "#f8dce8",
+          "text": "#3a1a2e",
+          "textMuted": "#9a7a8e",
+          "accent": "#e05090",
+          "accent2": "#a8d8ea"
+        },
+        "palette": [
+          {
+            "hex": "#F9C4D8",
+            "name": "Rose"
+          },
+          {
+            "hex": "#7B5EA7",
+            "name": "Lavender"
+          },
+          {
+            "hex": "#E05090",
+            "name": "Hot Magenta"
+          },
+          {
+            "hex": "#A8D8EA",
+            "name": "Baby Blue"
+          },
+          {
+            "hex": "#FDE8F0",
+            "name": "Blush"
+          }
+        ]
+      },
+      {
+        "name": "Flamingo Sky",
+        "theme": {
+          "bg": "#fff0f5",
+          "bgSection": "#ffd6e7",
+          "text": "#4a2032",
+          "textMuted": "#9b6a7d",
+          "accent": "#ff8fab",
+          "accent2": "#bde0fe"
+        },
+        "palette": [
+          {
+            "hex": "#FFD6E7",
+            "name": "Pink Mist"
+          },
+          {
+            "hex": "#CDB4DB",
+            "name": "Wisteria"
+          },
+          {
+            "hex": "#FF8FAB",
+            "name": "Flamingo"
+          },
+          {
+            "hex": "#BDE0FE",
+            "name": "Sky"
+          },
+          {
+            "hex": "#FFF0F5",
+            "name": "Snow"
+          }
+        ]
+      },
+      {
+        "name": "Pudding Mint",
+        "theme": {
+          "bg": "#fff8d6",
+          "bgSection": "#dff7e2",
+          "text": "#473b2f",
+          "textMuted": "#8d7d6e",
+          "accent": "#ffb3c6",
+          "accent2": "#95d5b2"
+        },
+        "palette": [
+          {
+            "hex": "#DFF7E2",
+            "name": "Soft Mint"
+          },
+          {
+            "hex": "#473B2F",
+            "name": "Cocoa"
+          },
+          {
+            "hex": "#FFB3C6",
+            "name": "Candy Pink"
+          },
+          {
+            "hex": "#95D5B2",
+            "name": "Leaf Jelly"
+          },
+          {
+            "hex": "#FFF8D6",
+            "name": "Vanilla"
+          }
+        ]
+      }
+    ]
+  },
+  "fonts": {
+    "default": [
+      {
+        "name": "Inter",
+        "family": "'Inter', sans-serif",
+        "weight": "400",
+        "description": "A neo-grotesque sans-serif built for screen clarity. Precise, neutral, and endlessly legible — the workhorse of modern digital design."
+      }
+    ],
+    "Funky": [
+      {
+        "name": "Momo Trust Display",
+        "family": "'Momo Trust Display', sans-serif",
+        "weight": "400",
+        "description": "An expressive display face with bold graphic confidence. Designed to own the headline and leave a lasting impression."
+      },
+      {
+        "name": "Englebert",
+        "family": "'Englebert', cursive",
+        "weight": "400",
+        "description": "A warm, approachable rounded sans with a hint of hand-drawn charm. Friendly without being frivolous."
+      },
+      {
+        "name": "Elsie Swash Caps",
+        "family": "'Elsie Swash Caps', serif",
+        "weight": "400",
+        "description": "An ornate serif adorned with decorative swash capitals. Victorian elegance meets contemporary playfulness."
+      },
+      {
+        "name": "Betania Patmos In",
+        "family": "'Betania Patmos In', cursive",
+        "weight": "400",
+        "description": "A calligraphic display face with flowing strokes and expressive detailing. Spiritual in character, distinctive in presence."
+      },
+      {
+        "name": "Schoolbell",
+        "family": "'Schoolbell', cursive",
+        "weight": "400",
+        "description": "A casual handwritten typeface with genuine warmth. Evokes nostalgia, creativity, and the joy of an unconstrained pen."
+      },
+      {
+        "name": "Unkempt",
+        "family": "'Unkempt', cursive",
+        "weight": "400",
+        "description": "Deliberately rough and raw. An expressive script that embraces imperfection as a design statement."
+      }
+    ],
+    "Neo-Gothic": [
+      {
+        "name": "UnifrakturMaguntia",
+        "family": "'UnifrakturMaguntia', cursive",
+        "weight": "400",
+        "description": "A classical blackletter rooted in medieval German tradition. Dark, ceremonial, and unmistakably authoritative."
+      },
+      {
+        "name": "Jim Nightshade",
+        "family": "'Jim Nightshade', cursive",
+        "weight": "400",
+        "description": "A gothic display face with theatrical flair. Sharp, dramatic serifs that thrive in darkness and contrast."
+      },
+      {
+        "name": "Uncial Antiqua",
+        "family": "'Uncial Antiqua', system-ui",
+        "weight": "400",
+        "description": "An ancient uncial-inspired hand with timeless, ecclesiastical character. History made typographic."
+      },
+      {
+        "name": "Commissioner",
+        "family": "'Commissioner', sans-serif",
+        "weight": "600",
+        "description": "A contemporary variable sans-serif with optical precision. Versatile across editorial and branding contexts."
+      }
+    ],
+    "Bold": [
+      {
+        "name": "Inter Black",
+        "family": "'Inter', sans-serif",
+        "weight": "900",
+        "description": "Inter pushed to its extreme weight. Unapologetic, commanding, and impossible to ignore at any scale."
+      },
+      {
+        "name": "Racing Sans One",
+        "family": "'Racing Sans One', sans-serif",
+        "weight": "400",
+        "description": "A condensed sans-serif born from motorsport aesthetics. Fast, aggressive, and built for maximum impact."
+      },
+      {
+        "name": "Climate Crisis",
+        "family": "'Climate Crisis', sans-serif",
+        "weight": "400",
+        "description": "A variable display face with animated, morphing letterforms. Urgency and tension encoded directly into the type."
+      },
+      {
+        "name": "Commissioner",
+        "family": "'Commissioner', sans-serif",
+        "weight": "600",
+        "description": "A contemporary variable sans-serif with optical precision. Versatile across editorial and branding contexts."
+      },
+      {
+        "name": "Momo Trust Display",
+        "family": "'Momo Trust Display', sans-serif",
+        "weight": "400",
+        "description": "An expressive display face with bold graphic confidence. Designed to own the headline and leave a lasting impression."
+      }
+    ],
+    "Elegant": [
+      {
+        "name": "Instrument Serif",
+        "family": "'Instrument Serif', serif",
+        "weight": "400",
+        "description": "A modern serif with classical proportions and quiet confidence. Refined, assured, and effortlessly editorial."
+      },
+      {
+        "name": "Caladea",
+        "family": "'Caladea', serif",
+        "weight": "400",
+        "description": "A warm, readable serif with humanist roots. Familiar yet distinguished — perfectly suited to long-form editorial."
+      },
+      {
+        "name": "DM Serif Display",
+        "family": "'DM Serif Display', serif",
+        "weight": "400",
+        "description": "A high-contrast serif built for impactful headlines. Graceful curves paired with sharp stroke modulation."
+      },
+      {
+        "name": "Commissioner",
+        "family": "'Commissioner', sans-serif",
+        "weight": "400",
+        "description": "A contemporary variable sans-serif with optical precision. Versatile across editorial and branding contexts."
+      }
+    ],
+    "Minimalistic": [
+      {
+        "name": "Inter Light",
+        "family": "'Inter', sans-serif",
+        "weight": "300",
+        "description": "The airy, refined side of Inter. Elegant restraint — ideal for editorial layouts where whitespace does the talking."
+      },
+      {
+        "name": "Inter",
+        "family": "'Inter', sans-serif",
+        "weight": "400",
+        "description": "A neo-grotesque sans-serif built for screen clarity. Precise, neutral, and endlessly legible — the workhorse of modern digital design."
+      },
+      {
+        "name": "Commissioner",
+        "family": "'Commissioner', sans-serif",
+        "weight": "400",
+        "description": "A contemporary variable sans-serif with optical precision. Versatile across editorial and branding contexts."
+      },
+      {
+        "name": "Momo Trust Display",
+        "family": "'Momo Trust Display', sans-serif",
+        "weight": "400",
+        "description": "An expressive display face with bold graphic confidence. Designed to own the headline and leave a lasting impression."
+      }
+    ],
+    "Grunge": [
+      {
+        "name": "Inter Black",
+        "family": "'Inter', sans-serif",
+        "weight": "900",
+        "description": "Inter pushed to its extreme weight. Unapologetic, commanding, and impossible to ignore at any scale."
+      },
+      {
+        "name": "Racing Sans One",
+        "family": "'Racing Sans One', sans-serif",
+        "weight": "400",
+        "description": "A condensed sans-serif born from motorsport aesthetics. Fast, aggressive, and built for maximum impact."
+      },
+      {
+        "name": "Climate Crisis",
+        "family": "'Climate Crisis', sans-serif",
+        "weight": "400",
+        "description": "A variable display face with animated, morphing letterforms. Urgency and tension encoded directly into the type."
+      },
+      {
+        "name": "Commissioner",
+        "family": "'Commissioner', sans-serif",
+        "weight": "600",
+        "description": "A contemporary variable sans-serif with optical precision. Versatile across editorial and branding contexts."
+      },
+      {
+        "name": "Momo Trust Display",
+        "family": "'Momo Trust Display', sans-serif",
+        "weight": "400",
+        "description": "An expressive display face with bold graphic confidence. Designed to own the headline and leave a lasting impression."
+      },
+      {
+        "name": "DM Serif Display",
+        "family": "'DM Serif Display', serif",
+        "weight": "400",
+        "description": "A high-contrast serif built for impactful headlines. Graceful curves paired with sharp stroke modulation."
+      },
+      {
+        "name": "UnifrakturMaguntia",
+        "family": "'UnifrakturMaguntia', cursive",
+        "weight": "400",
+        "description": "A classical blackletter rooted in medieval German tradition. Dark, ceremonial, and unmistakably authoritative."
+      },
+      {
+        "name": "Uncial Antiqua",
+        "family": "'Uncial Antiqua', system-ui",
+        "weight": "400",
+        "description": "An ancient uncial-inspired hand with timeless, ecclesiastical character. History made typographic."
+      }
+    ],
+    "Maximalistic": [
+      {
+        "name": "Inter Black",
+        "family": "'Inter', sans-serif",
+        "weight": "900",
+        "description": "Inter pushed to its extreme weight. Unapologetic, commanding, and impossible to ignore at any scale."
+      },
+      {
+        "name": "Racing Sans One",
+        "family": "'Racing Sans One', sans-serif",
+        "weight": "400",
+        "description": "A condensed sans-serif born from motorsport aesthetics. Fast, aggressive, and built for maximum impact."
+      },
+      {
+        "name": "Climate Crisis",
+        "family": "'Climate Crisis', sans-serif",
+        "weight": "400",
+        "description": "A variable display face with animated, morphing letterforms. Urgency and tension encoded directly into the type."
+      },
+      {
+        "name": "Momo Trust Display",
+        "family": "'Momo Trust Display', sans-serif",
+        "weight": "400",
+        "description": "An expressive display face with bold graphic confidence. Designed to own the headline and leave a lasting impression."
+      },
+      {
+        "name": "DM Serif Display",
+        "family": "'DM Serif Display', serif",
+        "weight": "400",
+        "description": "A high-contrast serif built for impactful headlines. Graceful curves paired with sharp stroke modulation."
+      },
+      {
+        "name": "UnifrakturMaguntia",
+        "family": "'UnifrakturMaguntia', cursive",
+        "weight": "400",
+        "description": "A classical blackletter rooted in medieval German tradition. Dark, ceremonial, and unmistakably authoritative."
+      },
+      {
+        "name": "Jim Nightshade",
+        "family": "'Jim Nightshade', cursive",
+        "weight": "400",
+        "description": "A gothic display face with theatrical flair. Sharp, dramatic serifs that thrive in darkness and contrast."
+      },
+      {
+        "name": "Uncial Antiqua",
+        "family": "'Uncial Antiqua', system-ui",
+        "weight": "400",
+        "description": "An ancient uncial-inspired hand with timeless, ecclesiastical character. History made typographic."
+      }
+    ],
+    "Cute": [
+      {
+        "name": "Momo Trust Display",
+        "family": "'Momo Trust Display', sans-serif",
+        "weight": "400",
+        "description": "An expressive display face with bold graphic confidence. Designed to own the headline and leave a lasting impression."
+      },
+      {
+        "name": "Englebert",
+        "family": "'Englebert', cursive",
+        "weight": "400",
+        "description": "A warm, approachable rounded sans with a hint of hand-drawn charm. Friendly without being frivolous."
+      },
+      {
+        "name": "Elsie Swash Caps",
+        "family": "'Elsie Swash Caps', serif",
+        "weight": "400",
+        "description": "An ornate serif adorned with decorative swash capitals. Victorian elegance meets contemporary playfulness."
+      },
+      {
+        "name": "Betania Patmos In",
+        "family": "'Betania Patmos In', cursive",
+        "weight": "400",
+        "description": "A calligraphic display face with flowing strokes and expressive detailing. Spiritual in character, distinctive in presence."
+      },
+      {
+        "name": "Schoolbell",
+        "family": "'Schoolbell', cursive",
+        "weight": "400",
+        "description": "A casual handwritten typeface with genuine warmth. Evokes nostalgia, creativity, and the joy of an unconstrained pen."
+      },
+      {
+        "name": "Unkempt",
+        "family": "'Unkempt', cursive",
+        "weight": "400",
+        "description": "Deliberately rough and raw. An expressive script that embraces imperfection as a design statement."
+      }
+    ]
+  },
+  "styles": [
+    "Funky",
+    "Neo-Gothic",
+    "Bold",
+    "Elegant",
+    "Minimalistic",
+    "Grunge",
+    "Maximalistic",
+    "Cute"
+  ],
+  "types": [
+    "Advertisement",
+    "Packaging",
+    "Print",
+    "Booklet",
+    "Data Visualization",
+    "Rebrand",
+    "Social Media Kit",
+    "Web Design",
+    "Anything"
+  ]
+}
